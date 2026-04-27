@@ -1,0 +1,16 @@
+managed implementation in class zbp_ykn_i_leave_request unique;
+strict ( 2 );
+
+define behavior for YKN_I_LEAVE_REQUEST alias LeaveRequest
+persistent table YKN_LEAVE_REQ
+lock master
+authorization master ( instance )
+etag master LocalLastChangedAt
+{
+  create;
+  update;
+  delete;
+
+  field ( readonly ) LeaveRequestId, CreatedBy, CreatedAt, LastChangedBy, ChangedAt, LocalLastChangedAt;
+
+}

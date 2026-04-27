@@ -1,0 +1,5 @@
+No code.
+Create via wizard with:
+- Service Definition: YKN_SD_LEAVE_REQUEST
+- Binding Type: OData V4 - UI
+Then activate and publish.

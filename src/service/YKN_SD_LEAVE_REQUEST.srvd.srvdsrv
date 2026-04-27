@@ -1,0 +1,4 @@
+@EndUserText.label: 'Leave Request Service Definition'
+define service YKN_SD_LEAVE_REQUEST {
+  expose YKN_C_LEAVE_REQUEST as LeaveRequest;
+}
