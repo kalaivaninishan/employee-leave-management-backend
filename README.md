@@ -58,4 +58,4 @@ The project follows a clean RAP layering approach:
 - **CDS data model** for business object representation
 - **Behavior definitions** for transactional processing
 - **Metadata extension** for UI annotations
-- **Service definition and service binding** for OData V4 exposure
+- **Service definition and service binding** for OData V4 exposure.
